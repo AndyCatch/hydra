@@ -1,3 +1,5 @@
+// Wavy
+
 osc(10, 0.9, 10)
   .color(0.9, ({time})=>Math.sin(time), 0.8)
   .mult(
